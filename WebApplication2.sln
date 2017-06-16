@@ -9,18 +9,33 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2.Tests", "We
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Build|Any CPU = Build|Any CPU
 		Debug|Any CPU = Debug|Any CPU
+		Deploy-Dev|Any CPU = Deploy-Dev|Any CPU
 		Release|Any CPU = Release|Any CPU
+		WebApp2Release|Any CPU = WebApp2Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Build|Any CPU.ActiveCfg = Build|Any CPU
+		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Build|Any CPU.Build.0 = Build|Any CPU
 		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Deploy-Dev|Any CPU.ActiveCfg = Deploy-Dev|Any CPU
+		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Deploy-Dev|Any CPU.Build.0 = Deploy-Dev|Any CPU
 		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.WebApp2Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A8C5D2-B6F1-4DDA-A781-3F0127B51F8E}.WebApp2Release|Any CPU.Build.0 = Debug|Any CPU
+		{37F864F9-FC48-405F-9BB0-43510801F82E}.Build|Any CPU.ActiveCfg = Build|Any CPU
+		{37F864F9-FC48-405F-9BB0-43510801F82E}.Build|Any CPU.Build.0 = Build|Any CPU
 		{37F864F9-FC48-405F-9BB0-43510801F82E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{37F864F9-FC48-405F-9BB0-43510801F82E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F864F9-FC48-405F-9BB0-43510801F82E}.Deploy-Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F864F9-FC48-405F-9BB0-43510801F82E}.Deploy-Dev|Any CPU.Build.0 = Debug|Any CPU
 		{37F864F9-FC48-405F-9BB0-43510801F82E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37F864F9-FC48-405F-9BB0-43510801F82E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F864F9-FC48-405F-9BB0-43510801F82E}.WebApp2Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F864F9-FC48-405F-9BB0-43510801F82E}.WebApp2Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
